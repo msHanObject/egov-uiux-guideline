@@ -11,20 +11,20 @@
 
 <body>
     <div id="skipnavi">
-		<a href="#pattern" class="skip">패턴 바로가기</a>
+        <a href="#pattern" class="skip">패턴 바로가기</a>
     </div>
     <h1>전자정부 웹사이트 UI/UX 가이드라인</h1>
     <nav>
         <ul>
             <li>
-                <a href="#pt_brandarea">브랜드영역</a>
+                <a href="#pattern_brandarea">브랜드영역</a>
                 <ul>
                     <li><a href="#brandarea_header">헤더</a></li>
                     <li><a href="#brandarea_footer">푸터</a></li>
                 </ul>
             </li>
             <li>
-                <a href="#pt_navigation">탐색</a>
+                <a href="#pattern_navigation">탐색</a>
                 <ul>
                     <li><a href="#navigation_mainmenu">메인메뉴</a></li>
                     <li><a href="#navigation_submenu">서브메뉴</a></li>
@@ -34,7 +34,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#pt_search">검색</a>
+                <a href="#pattern_search">검색</a>
                 <ul>
                     <li><a href="#search_integratedsearch">통합검색</a></li>
                     <li><a href="#search_advancedsearch">고급검색</a></li>
@@ -42,7 +42,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#pt_contents">콘텐츠</a>
+                <a href="#pattern_contents">콘텐츠</a>
                 <ul>
                     <li><a href="#contents_listview">목록보기</a></li>
                     <li><a href="#contents_write">콘텐츠 작성/업로드</a></li>
@@ -53,7 +53,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#pt_account">회원</a>
+                <a href="#pattern_account">회원</a>
                 <ul>
                     <li><a href="#account_signup">회원가입</a></li>
                     <li><a href="#account_termsagreement">약관동의</a></li>
@@ -62,14 +62,14 @@
                 </ul>
             </li>
             <li>
-                <a href="#pt_application">신청/조회/발행</a>
+                <a href="#pattern_application">신청/조회/발행</a>
                 <ul>
                     <li><a href="#application_write">신청서 작성</a></li>
                     <li><a href="#application_confirm">신청내역 확인/취소</a></li>
                 </ul>
             </li>
             <li>
-                <a href="#pt_purchase">구매/결제</a>
+                <a href="#pattern_purchase">구매/결제</a>
                 <ul>
                     <li><a href="#purchase_productview">제품 상세정보 보기</a></li>
                     <li><a href="#purchase_basket">장바구니 확인</a></li>
@@ -77,7 +77,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#pt_notification">안내</a>
+                <a href="#pattern_notification">안내</a>
                 <ul>
                     <li><a href="#notification_modal">모달</a></li>
                     <li><a href="#notification_alert">확인</a></li>
@@ -85,7 +85,7 @@
                 </ul>
             </li>
             <li>
-                <a href="#pt_support">지원/기타</a>
+                <a href="#pattern_support">지원/기타</a>
                 <ul>
                     <li><a href="#support_staff">직원검색</a></li>
                     <li><a href="#support_location">기관위치 확인</a></li>
@@ -96,10 +96,10 @@
     </nav>
     <ol id="pattern">
         <li>
-            <article>
+            <article id="pattern_brandarea">
                 <h2>브랜드 영역</h2>
                 <div>브랜드 영역은 헤더와 푸터를 포함하는 영역으로, 사용자가 웹사이트에서의 위치를 파악하고, 주요 섹션에 도달할 수 있는 빠르고 체계적인 방법을 제공하는 곳이다. 브랜드 영역은 독립적인 전자정부 웹사이트의 일관성뿐만 아니라 전체 전자정부 웹사이트에 일관성 있는 사용자경험을 제공할 수 있도록 설계되어야 한다.</div>
-                <section class="component">
+                <section id="brandarea_header" class="component">
                     <h3>헤더</h3>
                     <div>헤더는 사용자가 웹사이트에 접속하자마자 마주하게 되는 페이지의 최상단 영역으로, 전자정부사이트 BI영역, 로고와 웹사이트 이름, 메인메뉴, 통합검색, 유틸리티 메뉴 등 웹사이트 전반에 걸쳐 빈번하게 사용되는 기능이 포함된다.</div>
                     <ol class="usability">
@@ -168,7 +168,7 @@
                     </ul>
                 </section>
                 <!-- 헤더 end -->
-                <section class="component">
+                <section id="brandarea_footer" class="component">
                     <h3>푸터</h3>
                     <div>푸터에는 방문자들이 헤더나 메인 콘텐츠 영역에서 발견하지 못한 부가적인 정보가 제공된다. 웹사이트의 주요링크, 저작권 정보, 기관 정보, 이용약관, 개인정보처리방침, 관리자의 연락처, 소셜미디어 및 관련 사이트 링크 등의 기능과 정보가 포함된다.</div>
                     <ol class="usability">
@@ -211,10 +211,10 @@
             <!-- 브랜드 영역 end -->
         </li>
         <li>
-            <article>
+            <article id="pattern_navigation">
                 <h2>탐색</h2>
                 <div>탐색 패턴은 한 페이지에서 다른 페이지 또는 페이지의 한 지점에서 다른 지점으로 이동할 수 있게 해주는 상세 패턴의 집합이다. 탐색은 사용자가 웹사이트와 상호작용하며 의사소통 할 수 있는 가장 기본적인 수단이다. 그러므로 사용자가 원하는 장소로 이동하는 행동을 촉진할 수 있게 상황에 맞는 적절한 유형의 탐색 메뉴를 제공해야 한다.</div>
-                <section class="component">
+                <section id="navigation_mainmenu" class="component">
                     <h3>메인메뉴</h3>
                     <div>메인메뉴는 사용자가 페이지를 탐색할 때, 가장 많이 사용하는 유형의 메뉴이다. 일반적으로 헤더와 함께 거의 모든 페이지에 제공되며, 사용자가 자주 방문하거나 중요도가 높은 페이지로 이동할 수 있는 링크가 포함되어 있다. 빈번하게 활용되는 사용자의 일차적인 이동 수단이기 때문에 사용하기 쉽게 설계해야 한다.</div>
                     <ol class="usability">
@@ -275,7 +275,7 @@
                     </ul>
                 </section>
                 <!-- 메인메뉴 end -->
-                <section class="component">
+                <section id="navigation_submenu" class="component">
                     <h3>서브메뉴</h3>
                     <div>서브메뉴는 서브 페이지 내에서의 이동을 위해 사용하는 메뉴이다. 일반적으로 본문 영역의 좌측에 사이드바 형태로 제공된다. 메인메뉴보다 훨씬 좁고 깊은 페이지 구조 탐색에 사용되기 때문에 링크의 개수가 많고 복잡하게 표현되기 쉽다. 사이트 규모가 클수록 서브메뉴를 단순하고 직관적으로 설계하여 사용자가 탐색 중에 길을 잃지 않도록 해야 한다.</div>
                     <ol class="usability">
@@ -320,7 +320,7 @@
                     </ul>
                 </section>
                 <!-- 서브메뉴 end -->
-                <section class="component">
+                <section id="navigation_tab" class="component">
                     <h3>탭</h3>
                     <div>탭은 사이트 계층구조상 동일한 수준에 위치한 페이지 간 탐색에 이용되는 메뉴이다. 탭은 매우 직관적인 상호작용 수단이며, 적절히 사용하면 사용성을 크게 향상시킬 수 있어 빈번히 사용된다. 그러나 자주 사용되는 만큼 오용되기 쉬우므로 유의해야 한다.</div>
                     <ol class="usability">
@@ -379,7 +379,7 @@
                     </ul>
                 </section>
                 <!-- 탭 end -->
-                <section class="component">
+                <section id="navigation_breadcrumb" class="component">
                     <h3>브래드크럼</h3>
                     <div>
                         브래드크럼은 웹사이트 계층구조 내에서의 상대적인 사용자의 탐색 위치를 보여준다. 사용자는 브래드크럼에 기반하여 탐색 중인 페이지의 맥락을 이해할 수 있고, 경로가 포함하고 있는 링크를 이용하여 쉽게 상위수준의 콘텐츠로 이동할 수 있다.
@@ -435,7 +435,7 @@
                     </ul>
                 </section>
                 <!-- 브래드크럼 end -->
-                <section class="component">
+                <section id="navigation_sitemap" class="component">
                     <h3>사이트맵</h3>
                     <div>
                         사이트맵은 전체 사이트 구조를 한 페이지에서 명확하게 확인할 수 있게 도와주는 패턴으로 사이트의 위계에 관한 개요를 제공한다. 일반적으로 사용자들은 다른 메뉴 시스템을 통해 원하는 페이지에 접근하지 못하거나 메뉴 시스템을 간단하게 둘러보고 이해할 수 없다고 판단했을 때 사이트맵을 사용한다.
@@ -483,10 +483,10 @@
             <!-- 탐색 end -->
         </li>
         <li>
-            <article>
+            <article id="pattern_search">
                 <h2>검색</h2>
                 <div>검색은 탐색을 이용하지 않고도 특정한 정보를 찾을 수 있게 해준다. 사용자는 단어나 문구를 직접 입력하여 검색함으로써 원하는 정보에 빠르게 접근할 수 있다. 탐색 시스템에서 원하는 정보를 찾지 못한 사용자가 정보를 찾기 위한 수단으로 활용할 수 있다.</div>
-                <section class="component">
+                <section id="search_integratedsearch" class="component">
                     <h3>통합검색</h3>
                     <div>사용자는 통합검색을 통해 다양한 콘텐츠를 찾을 수 있다. 일반적으로 통합검색은 사용자가 웹사이트 내에서 어디로 가고, 무엇을 해야 하는지 탐색할 수 있는 출발점 역할을 하며, 콘텐츠 복잡성이 낮은 웹사이트에 적합하다.</div>
                     <ol class="usability">
@@ -541,7 +541,7 @@
                     </ul>
                 </section>
                 <!-- 통합검색 end -->
-                <section class="component">
+                <section id="search_advancedsearch" class="component">
                     <h3>고급검색</h3>
                     <div>사용자는 고급검색 기능을 통해 더 빠르고 지능적인 검색을 수행할 수 있다. 자동완성 기능이나 필터, 맞춤 추천, 조건검색, 검색어 랭킹 등이 해당되며, 대부분 별도의 솔루션을 통해 기능이 구현되므로, 콘텐츠 복잡성이 높은 경우 사용하는 것이 좋다.</div>
                     <ol class="usability">
@@ -592,7 +592,7 @@
                     </ul>
                 </section>
                 <!-- 고급검색 end -->
-                <section class="component">
+                <section id="search_searchresult" class="component">
                     <h3>검색결과</h3>
                     <div>검색결과는 사용자가 검색의 결과를 확인하는 데 사용하는 패턴으로 일반적으로 목록 형태로 제공된다. 사용자가 의도한 것과 일치하는 결과를 쉽게 발견할 수 있도록 표현해야 하며, 원하는 검색결과를 얻지 못한 경우 신속하게 추가 검색이 가능하도록 설계해야 한다.</div>
                     <ol class="usability">
@@ -665,10 +665,10 @@
             <!-- 검색 end -->
         </li>
         <li>
-            <article>
+            <article id="pattern_contents">
                 <h2>콘텐츠</h2>
                 <div>콘텐츠는 웹 페이지에 표현되는 텍스트 또는 이미지, 소리, 영상 등의 미디어 정보를 의미한다. 사용자는 콘텐츠를 통해 웹사이트와 의사소통하기 때문에 콘텐츠를 효과적으로 전달할 수 있도록 설계해야 한다.</div>
-                <section class="component">
+                <section id="contents_listview" class="component">
                     <h3>목록보기</h3>
                     <div>목록은 텍스트 혹은 이미지를 연속적으로 배열한 색인이다. 목록의 항목 하위에 콘텐츠가 존재하는 경우, 상세 내용을 조회할 수 있도록 링크나 버튼이 포함될 수 있다. 목록은 정보 형태에 따라 문자정보를 통해 색인할 수 있는 텍스트형과 텍스트에 부가적으로 이미지를 활용하는 썸네일형으로 구분할 수 있다.</div>
                     <ol class="usability">
@@ -751,7 +751,7 @@
                     </ul>
                 </section>
                 <!-- 목록보기 end -->
-                <section class="component">
+                <section id="contents_write" class="component">
                     <h3>콘텐츠 작성/업로드</h3>
                     <div>콘텐츠 작성/업로드는 사용자가 의견을 개진하는 과정에서 사용하는 입력폼 패턴을 의미한다. 콘텐츠 작성이라는 과업은 사용자가 웹사이트 커뮤니티와 의사소통하는 매우 능동적인 과정이다. 사이트에 적극적으로 참여하고자 하는 사용자가 불편함 없이 의견을 표현할 수 있도록 사용하기 쉽게 설계해야 한다.</div>
                     <ol class="usability">
@@ -810,7 +810,7 @@
                     </ul>
                 </section>
                 <!-- 콘텐츠 작성/업로드 end -->
-                <section class="component">
+                <section id="contents_detailview" class="component">
                     <h3>상세내용 보기</h3>
                     <div>상세내용은 특정한 주제에 관한 정보를 제공하는 패턴으로, 효과적인 정보 전달을 위해 텍스트 이외에 다양한 시각적 요소들이 활용된다. 사용자들은 콘텐츠 목록에서 콘텐츠 제목이나 요약정보를 포함한 링크를 통해 상세내용에 접근하기 때문에, 사용자가 예상하는 정보를 명확하고 간결하게 전달할 수 있어야 한다.</div>
                     <ol class="usability">
@@ -891,7 +891,7 @@
                     </ul>
                 </section>
                 <!-- 상세내용 보기 end -->
-                <section class="component">
+                <section id="contents_comments" class="component">
                     <h3>댓글 남기기/읽기</h3>
                     <div>댓글 남기기/읽기 패턴은 의견을 입력할 때 사용하는 간단한 입력폼과 등록된 댓글을 표시하는 영역으로 구분할 수 있다. 사용자는 콘텐츠 상세내용과 관련하여, 운영자 또는 다른 사용자들과 의사소통하기 위해 댓글을 남긴다. 의견을 작성하는 것뿐만 아니라 다른 사용자와 직접 의견을 주고받거나 추천하는 등 다양한 형태의 상호작용이 발생하기 때문에 이를 어떻게 구조화하여 표현할 것인지가 매우 중요하다.</div>
                     <ol class="usability">
@@ -960,7 +960,7 @@
                     </ol>
                 </section>
                 <!-- 댓글 남기기/읽기 end -->
-                <section class="component">
+                <section id="contents_share" class="component">
                     <h3>공유/공감</h3>
                     <div>
                         사용자는 다양한 채널을 이용하여 콘텐츠를 다른 사용자나 사이트 외부의 사람들에게 공유하기 위해 공유 패턴을 사용한다. 공감은 사용자가 콘텐츠에 동의를 표하거나 나중의 활용을 위해 링크를 저장할 때 사용된다.
@@ -1010,7 +1010,7 @@
                     </ul>
                 </section>
                 <!-- 공유/공감 end -->
-                <section class="component">
+                <section id="contents_related" class="component">
                     <h3>관련 콘텐츠</h3>
                     <div>관련 콘텐츠는 상세 콘텐츠의 하단이나 측면에 표시되는 간략한 콘텐츠 링크 목록이다. 관련 콘텐츠는 반드시 상세 콘텐츠의 내용과 관련이 있어야 하는 것은 아니다. 사용자가 흥미를 느낄 만한 콘텐츠 그룹을 예측하거나 개별 사용자가 원하는 맞춤형 정보를 제공할 수도 있다. 관련 콘텐츠를 잘 구성하면 사용자가 필요한 정보를 찾기 위해 클릭하는 횟수를 줄이고 몰입도를 향상시킬 수 있다.</div>
                     <ol class="usability">
@@ -1065,11 +1065,11 @@
             <!-- 콘텐츠 end -->
         </li>
         <li>
-            <article>
+            <article id="pattern_account">
                 <h2>회원</h2>
                 <div>특정 기능에 사용자의 개인정보가 필요한 경우, 사용자는 웹사이트의 회원으로서 행동하기 위해 가입, 로그인, 계정 찾기 등의 과정을 거치게 된다. 회원이라는 권한은 민원신청, 구매와 같은 과업에 사용되기도 하지만, 웹사이트의 콘텐츠를 공유하고, 웹사이트에 기여하고 싶어 하는 사용자의 욕구를 충족시키는 수단이기도 하다. 이러한 욕구를 충족시킬 수 있도록, 회원의 패턴을 잘 설계하여 웹사이트와 사용자 간에
                     원활한 상호작용이 발생할 수 있도록 해야 한다.</div>
-                <section class="component">
+                <section id="account_signup" class="component">
                     <h3>회원가입</h3>
                     <div>회원가입은 개인정보가 필요한 웹사이트의 여러 기능을 이용하기 위해, 웹사이트에서 고유한 계정을 생성하고 비밀번호를 설정하는 과업이다. 사용자에게 회원가입은 웹사이트를 이용하는 자연스러운 이용과정에서 맞닥트리게 되는 일종의 방해물이다. 따라서 사용자가 가입을 포기하지 않도록, 가입 과정과 입력해야 할 정보를 최대한 간략하게 구성해야 한다.</div>
                     <ol class="usability">
@@ -1144,7 +1144,7 @@
                     </ol>
                 </section>
                 <!-- 회원가입 end -->
-                <section class="component">
+                <section id="account_termsagreement" class="component">
                     <h3>약관동의</h3>
                     <div>이용약관은 웹사이트의 이용 조건 및 절차 등을 명시한 것이다. 회원의 자격으로 웹사이트를 이용하고자 하는 사용자는 명시된 약관의 내용을 읽고 동의하거나 동의하지 않는 의사를 표명함으로써 이용여부를 결정할 수 있다. 약관에 사용되는 용어는 일반적이지 않고, 양이 매우 방대하므로 사용자의 이해를 도울 수 있도록 요소들을 알기 쉽게 구조화해야 한다.</div>
                     <ol class="usability">
@@ -1203,7 +1203,7 @@
                     </ul>
                 </section>
                 <!-- 약관동의 end -->
-                <section class="component">
+                <section id="account_signin" class="component">
                     <h3>로그인/인증</h3>
                     <div>회원가입을 완료하고 나면, 저장된 개인정보를 이용하여 작업하기 위해서 계정 정보를 입력, 제출하는 인증 작업이 필요하다. 로그인폼의 구성은 간단한 듯 보이지만 자주 사용되고, 잘못 설계할 경우 사용자의 경험을 크게 저하시킬 수 있으므로 주의가 필요하다.</div>
                     <ol class="usability">
@@ -1260,7 +1260,7 @@
                     </ul>
                 </section>
                 <!-- 로그인/인증 end -->
-                <section class="component">
+                <section id="account_findaddress" class="component">
                     <h3>주소찾기</h3>
                     <div>사용자가 주소 정보를 입력할 때 사용하는 특이한 형태의 입력폼이다. 주소찾기는 다른 입력폼에 비해 매우 복잡하다. 사용자는 주소 정보를 입력하기 위해 우편번호, 시·도 등 여러 개의 상세정보를 입력해야 한다. 사용자가 모든 내용을 직접 입력하지 않을 수 있도록 검색시스템을 활용할 수도 있다.</div>
                     <ol class="usability">
@@ -1319,13 +1319,13 @@
             <!-- 회원 end -->
         </li>
         <li>
-            <article>
+            <article id="pattern_application">
                 <h2>신청/조회/발행</h2>
                 <div>
                     전자정부의 행정서비스 대부분은 정보를 입력하고 제출하는 데이터 교환 과정이다. 행정/민원서류 신청, 작성, 접수, 예약 등 구체적인 목적에 따라 다른 명칭으로 구분할 수 있지만, 앞선 모든 작업들은 원하는 결과를 얻기 위해 입력폼에 데이터를 작성하는 것이다.
                     <p>그러나 대부분 사용자의 최종 목표는 제출 결과를 확인하고 활용하는 것이므로, 과업은 단순히 데이터를 제출하는 것으로 끝나지 않을 때가 더 많다. 사용자는 필요에 따라 어떤 정보를 제출했는지 내역을 확인하거나 제출 자체를 취소하기도 한다.</p>
                 </div>
-                <section class="component">
+                <section id="application_write" class="component">
                     <h3>신청서 작성</h3>
                     <div>신청서 작성 패턴은 특정한 결과를 위해 입력폼에 정보를 입력, 수정, 제출하는 일련의 과정에서 사용한다. 과업에 따라 입력되는 상세 데이터의 유형은 다르지만, 모든 신청서 입력폼에는 일관성 있는 규칙이 적용되어야 한다.</div>
                     <ol class="usability">
@@ -1402,7 +1402,7 @@
                     </ul>
                 </section>
                 <!-- 신청서 작성 end -->
-                <section class="component">
+                <section id="application_confirm" class="component">
                     <h3>신청내역 확인/취소</h3>
                     <div>신청내역 확인/취소 패턴은 신청서 작성이나 수정 작업이 완료된 후, 사용자가 자신이 무엇을 신청했고 결과가 어떻게 되었는지를 확인하고 싶을 때 사용한다. 어떤 대상에 대한 신청은 취소가 가능하기 때문에 신청 상태를 변경하기 위한 작업을 수행하기도 한다.</div>
                     <ol class="usability">
@@ -1441,13 +1441,13 @@
             <!-- 신청/조회/발행 end -->
         </li>
         <li>
-            <article>
+            <article id="pattern_purchase">
                 <h2>구매/결제</h2>
                 <div>
                     구매/결제는 제품홍보 및 판매가 주요 목적이 아닌 웹사이트에서도 빈번하게 발생하는 과업이다. 전자정부 웹사이트의 일부 민원들은 처리를 위해 비용을 납부하도록 되어 있다. 박물관이나 교육기관에서 유료 강좌를 예약하는 경우에도 사용자는 제품을 구매하는 것과 유사한 과정을 거친다.
                     <p>구매/결제를 수행하는 동안 사용자는 많은 양의 정보를 확인하고 비교해야 하는 한편, 결제를 위해 다양한 형태의 데이터를 입력해야 한다. 사용자가 이와 같은 복잡한 과정에서 실수하지 않고 최대한 빠르게 목표를 달성할 수 있게 만들어야 한다.</p>
                 </div>
-                <section class="component">
+                <section id="purchase_productview" class="component">
                     <h3>제품 상세정보보기</h3>
                     <div>대부분의 사용자는 어떤 제품을 구매하기 전에 그 제품이 어떤 특징을 가지고 있는지 확인하고 유사한 제품과 비교해 본다. 제품 상세 페이지가 이러한 정보를 제대로 전달하지 못하면 사용자는 웹사이트를 신뢰하고 제품을 구매할 수 없다.</div>
                     <ol class="usability">
@@ -1510,7 +1510,7 @@
                     </ul>
                 </section>
                 <!-- 제품 상세정보보기 end -->
-                <section class="component">
+                <section id="purchase_basket" class="component">
                     <h3>장바구니 확인</h3>
                     <div>사용자는 최종적으로 구매를 결정하기 전까지 장바구니에서 여러 정보를 종합적으로 비교한다. 그러므로 장바구니는 정보를 저장해 두었다가 쉽게 항목 간 비교가 가능하도록 정보를 보여주어야 하며, 사용자의 효율적인 의사결정 과정을 도와야 한다.</div>
                     <ol class="usability">
@@ -1547,7 +1547,7 @@
                     </ol>
                 </section>
                 <!-- 장바구니 확인 end -->
-                <section class="component">
+                <section id="purchase_payment" class="component">
                     <h3>주문/결제정보 입력</h3>
                     <div>
                         사용자가 대상을 구매/결제를 수행하는 동안 발생하는 다양한 유형의 상호작용이 포함되어 있다. 일반적으로 주문자/배송지 입력, 할인 적용, 결제수단 선택 영역으로 구성된다. 만약 웹사이트의 정책상, 구매에 로그인이 필수라면 사용자는 로그인이라는 과업을 부가적으로 수행해야 한다.
@@ -1597,10 +1597,10 @@
             <!-- 구매/결제 end -->
         </li>
         <li>
-            <article>
+            <article id="pattern_notification">
                 <h2>안내</h2>
                 <div>안내는 사용자가 정보를 찾거나 과업을 완수하기 위해 참고할 수 있는 다양한 형태의 부가적인 정보이다. 일반적으로 사용자가 수행한 동작과 관련이 깊다. 발생 가능한 문제를 미리 알려 오류를 방지하고, 요청한 동작이 제대로 수행되고 있는지, 어느 정도의 시간이 소요될 것인지를 알려주며, 발생한 오류를 수정하여 목표한 행동을 완료할 수 있게 도와준다.</div>
-                <section class="component">
+                <section id="notification_modal" class="component">
                     <h3>모달</h3>
                     <div>모달은 사용자에게 정보를 전달하거나 행동을 촉진하는 데 사용된다. 모달에서 제공되는 정보를 확인한 후 모달을 닫거나, 모달이 유도하는 작업을 완료하기 전까지 다른 과업을 진행할 수 없으므로 사용자의 주의를 집중시킬 수 있다. 모달창이 제공되면 사용자가 본래 수행 중이던 과업 흐름이 중단되기 때문에 신중하게 사용해야 한다.</div>
                     <ol class="usability">
@@ -1683,7 +1683,7 @@
                     </ul>
                 </section>
                 <!-- 모달 end -->
-                <section class="component">
+                <section id="notification_alert" class="component">
                     <h3>확인</h3>
                     <div>확인은 사용자가 요청한 행위가 쉽게 취소할 수 없는 결과로 이어지거나, 행동의 효과 또는 부작용을 사용자가 인지해야 하는 경우에 사용한다. 사용자가 작업 내용을 확인하거나 수행을 승인하도록 함으로써, 어떤 작업이 수행될 것인지에 관한 불확실성을 감소시키고 내용을 한 번 더 점검할 수 있어 오류를 예방할 수 있다.</div>
                     <ol class="usability">
@@ -1736,7 +1736,7 @@
                     </ol>
                 </section>
                 <!-- 확인 end -->
-                <section class="component">
+                <section id="notification_error" class="component">
                     <h3>오류</h3>
                     <div>오류는 사용자가 요청한 작업을 시스템이 완료하지 못하는 문제가 발생했을 때 제공된다. 발생 가능한 문제를 사전에 안내하는 경고와는 달리, 오류는 이미 발생한 문제에 관한 정보를 사용자에게 알려준다. 오류정보는 단순히 사용자에게 문제가 발생했음을 알려주는 데 그치지 않고 본래 수행하고자 했던 행동을 완수할 수 있게 유도해야 한다. 오류정보를 제공하기 위해 별도의 모달창을 사용하거나 오류가 발생한
                         지점에 직접 메시지를 전달할 수 있다.</div>
@@ -1804,10 +1804,10 @@
             <!-- 안내 end -->
         </li>
         <li>
-            <article>
+            <article id="pattern_support">
                 <h2>지원/기타</h2>
                 <div>‘지원/기타’에서는 사용자가 전자정부 웹사이트를 보다 유용하고 편리하게 사용하기 위해 활용할 수 있는 다양한 상세 패턴에 대한 가이드라인을 제공한다. 사용자는 ‘지원/기타’ 패턴을 이용하여, 전자정부 웹사이트를 제공하는 기관의 전반적인 정보를 확인할 수 있다. 또한 웹사이트 이용 과정에서 겪는 문제를 해결하는 데 필요한 정보를 탐색할 수 있다.</div>
-                <section class="component">
+                <section id="support_staff" class="component">
                     <h3>직원검색</h3>
                     <div>사용자는 전자정부 웹사이트 이용과정에서 웹사이트의 관리자가 아닌, 실제 기관의 담당자와 상호작용하고자 할 때 '직원검색' 패턴을 이용한다. 일반적으로 '직원검색' 패턴은 '직원안내', '직원검색' 등의 메뉴에서 사용된다.</div>
                     <ol class="usability">
@@ -1836,7 +1836,7 @@
                     </ol>
                 </section>
                 <!-- 직원검색 end -->
-                <section class="component">
+                <section id="support_location" class="component">
                     <h3>기관위치 확인</h3>
                     <div>사용자가 기관 위치 정보와 방문 교통정보를 확인할 수 있는 패턴으로, ‘오시는 길’ 메뉴에서 활용된다. 약도 이미지, 지도 인터페이스, 텍스트 등 여러 유형의 요소들이 서로 상충되지 않도록 표현하여, 사용자가 필요한 정보를 빠르게 인지할 수 있도록 해야 한다.</div>
                     <ol class="usability">
@@ -1881,7 +1881,7 @@
                     </ul>
                 </section>
                 <!-- 기관위치 확인 end -->
-                <section class="component">
+                <section id="support_faq" class="component">
                     <h3>도움말 찾기</h3>
                     <div>
                         사용자는 웹사이트 이용 중에 발생한 문제를 해결하거나 단순히 이용에 참고하기 위한 정보를 찾고자 할 때, ‘도움말 찾기’ 패턴을 이용한다. 일반적으로 웹사이트에서 ‘도움말 찾기’ 패턴은 ‘도움말’ 또는 ‘자주 찾는 질문(FAQ)’ 메뉴로 제공된다.
