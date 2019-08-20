@@ -1,36 +1,37 @@
 /* css 초기화 */
-h1,h2,h3,h4,div,a,span{font-family:"Noto Sans Korean", sans-serif; font-weight:500;}
+button{font-size:100%; font-family:inherit; border:0; padding:0; background-color:#ffffff00; cursor:pointer;}
+h1,h2,h3,h4,a,p,span{font-family:"Noto Sans Korean", sans-serif;}
+h1,h2,h3,h4{font-weight:500;}
+a,p{font-size: 20px;color: #555;}
 body,h1,h2,h3,h4,p,ol,ul,section{padding:0; margin:0;}
 a{text-decoration:none; color:#0000ff;}
 a:hover,a:focus{text-decoration:underline; color:#ff0000;}
 li{list-style: none;}
 .skip{display: block; font-size:0;}
 .skip:focus{font-size: 16px; text-align:center;}
-/* button{font-size:100%; font-family:inherit; border:0; padding:0; background-color:#ffffff00; cursor:pointer;} */
-/* .center{position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); margin-right:-50%;} */
-/* .middle{position:absolute; top:50%; transform:translate(0%, -50%);} */
 /* .sr_only{position:absolute; overflow:hidden; width:1px; height:1px; padding:0; margin:-1px; border:0; clip:rect(0,0,0,0);} */
 /* PC버전 */
-h1{margin: 100px 0; text-align: center;}
-h2{margin: 90px 0;}
-h2:first-child{margin-top: 50px;}
-h3{margin: 80px 0;}
-h4{margin: 70px 0;}
-nav{float:left; width:15%; padding: 0 2%; box-sizing: border-box; border-right: 1px solid #000;}
+h1{font-size: 60px; padding: 100px 0; text-align: center; border-bottom: 1px solid #000;}
+h2{font-size: 50px; padding: 200px 0;}
+h2:first-child{padding-top: 50px;}
+h3{font-size: 40px; padding: 100px 0;}
+h4{font-size: 30px; padding: 50px 0;}
+nav{display: none;}
+/* nav{float:left; width:15%; padding: 0 2%; box-sizing: border-box; border-right: 1px solid #000;} */
 nav>ul>li{clear: both; padding-top: 50px;}
 nav>ul>li>a{font-size:18px;}
 nav>ul>li>ul>li>a{font-size:16px; padding: 0 20px;}
 nav>ul>li>ul>li>a:before{content: " - ";}
-#pattern{float:left; width:85%; box-sizing: border-box; padding:0 10%;}
-#pattern>li{clear: both;}
-section.component{position: relative;}
+#contents{width: 100%; box-sizing: border-box; padding:0 10%;}
+#contents>li{clear: both;}
+.pattern{box-sizing: border-box; padding: 0 10%;}
+.component{box-sizing: border-box; padding: 0 10%;}
 /* .good{display: inline-block; width: 10px; height: 10px; border: 5px solid #16aa16; border-radius: 50%;} */
 .usability>li{overflow: hidden;}
 .usability>li>h4>span{font-size: 14px; color: #878787;}
-.usability>li>h4>span:before{content:""; border-left: 1px solid #878787; margin: 0 10px;}
-.usability>li>div:nth-child(2){margin-bottom: 20px;}
-.usability>li>ul>li{float: left; width: 50%; box-sizing: border-box; padding: 0 10px;}
-.usability>li>ul>li>div>span{font-size: 28px; font-weight: 900; vertical-align: sub;}
+.usability>li>h4>span:before{content:""; margin: 0 10px; border-left: 1px solid #878787; vertical-align: text-top;}
+.usability>li>p{margin-bottom: 20px;}
+.usability>li>ul>li{float: left; width: 50%; box-sizing: border-box; padding: 0 20px;}
 .good{border-bottom: 1px solid #16aa16;}
 .bad{border-bottom: 1px solid #f00;}
 svg{width: 20px; height: 20px; vertical-align: sub;}
@@ -39,15 +40,15 @@ svg{width: 20px; height: 20px; vertical-align: sub;}
 .accessibilty{clear: both;}
 /* 태블릿버전 */
 @media all and (min-width:768px) and (max-width:1109px) {
-    nav{width: 96%; margin: 0 2%; border: none;}
-    nav>ul>li>ul>li{float: left;}
-    #pattern{width: 96%;}
+    /* nav{width: 96%; margin: 0 2%; border: none;} */
+    /* nav>ul>li>ul>li{float: left;} */
+    #contents{width: 96%;}
 }
 /* 모바일버전 */
 @media only screen and (max-width: 768px){
     h1{font-size: 22px;}
-    nav{width: 96%; margin: 0 2%; border: none;}
-    nav>ul>li>ul>li{float: left;}
-    #pattern{width: 96%;}
+    /* nav{width: 96%; margin: 0 2%; border: none;} */
+    /* nav>ul>li>ul>li{float: left;} */
+    #contents{width: 96%;}
     .usability>li>ul>li{width: 100%;}
 }
