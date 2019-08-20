@@ -32,7 +32,7 @@ section.component{position: relative;}
 .usability>li>ul>li>div>span{font-size: 28px; font-weight: 900; vertical-align: sub;}
 .good{border-bottom: 1px solid #16aa16;}
 .bad{border-bottom: 1px solid #f00;}
-svg{width: 20px; height: 20px;}
+svg{width: 20px; height: 20px; vertical-align: sub;}
 .usability>li>ul>li>img{width: 100%; box-sizing: border-box; padding: 10px; background-color: #f0f8ff;}
 .usability>li>ul>li:nth-child(1)
 .accessibilty{clear: both;}
