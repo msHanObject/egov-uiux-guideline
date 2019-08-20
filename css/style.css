@@ -1,5 +1,5 @@
 /* css 초기화 */
-h1,h2,h3,h4{font-family:"Noto Sans Korean", sans-serif; font-weight:500;}
+h1,h2,h3,h4,div,a,span{font-family:"Noto Sans Korean", sans-serif; font-weight:500;}
 body,h1,h2,h3,h4,p,ol,ul,section{padding:0; margin:0;}
 a{text-decoration:none; color:#0000ff;}
 a:hover,a:focus{text-decoration:underline; color:#ff0000;}
