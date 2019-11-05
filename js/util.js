@@ -14,8 +14,15 @@ $(document).ready(function () {
         navClickFunc();
     });
     var pattern = $("nav>ul>li");
-    pattern.click(function(){
-       navClickFunc();
+    var component = pattern.children("ul");
+    component.addClass("hide");
+    pattern.focusin(function(){
+        var u = $(this).children("ul");
+        u.slideDown();
+        
+        if($(this).siblings().focusin(function(){
+            u.slideUp();
+        }));
     });
     pattern.hover(
         function(){
@@ -25,15 +32,7 @@ $(document).ready(function () {
             $(this).children("ul").slideUp();
         }
     );
-    $("nav>ul>li>ul>li>a").focus(
-        function(){
-            console.log(this);
-            $(this).children("ul").slideDown();
-        }
-    );
-    $("nav>ul>li>ul>li>a").blur(
-        function(){
-            $(this).children("ul").slideUp();
-        }
-    );
+    component.click(function(){
+        navClickFunc();
+    })
 });

@@ -7,6 +7,7 @@ body,h1,h2,h3,h4,p,ol,ul,section{padding:0; margin:0;}
 a{text-decoration:none; color:#0000ff;}
 a:hover,a:focus{text-decoration:underline; color:#ff0000;}
 li{list-style: none;}
+.hide{display: none;}
 .skip{display: block; font-size:0;}
 .skip:focus{font-size: 16px; text-align:center;}
 /* .sr_only{position:absolute; overflow:hidden; width:1px; height:1px; padding:0; margin:-1px; border:0; clip:rect(0,0,0,0);} */
@@ -21,14 +22,13 @@ h4{font-size: 20px; padding: 2vh 0;}
 .usability>li>p{font-size: 16px;}
 .usability>li>h4>span{font-size: 14px;}
 /* 내비게이션 */
-#nav_open{position: fixed; top: 0; left: 0; width: 100vw; background-color: #fff; font-size: 16px;}
-nav{position: fixed; top: 16px; left: 0;}
+#nav_open{position: fixed; top: 0; left: 0; width: 100vw; padding: 5px 0; background-color: #fff; font-size: 16px; border: 1px solid #000;}
+nav{position: fixed; top: 26px; left: 0;}
 nav>ul{width: max-content; width: 100vw; height: 100vh; background-color: #000;}
-nav>ul.hide{display: none;}
 nav>ul>li{position: relative; width: 110px;}
 nav>ul>li>a{width: 100%;}
 nav>ul>li>a, nav>ul>li>ul>li>a{color: #fff;}
-nav>ul>li>ul{position: absolute; top: 0; left: 100%; width: max-content; display: none;}
+nav>ul>li>ul{position: absolute; top: 0; left: 100%; width: max-content;}
 /* 본문 */
 #contents{padding:0 5vw;}
 .pattern{box-sizing: border-box; padding: 0 5%;}
