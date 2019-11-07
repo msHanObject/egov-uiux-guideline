@@ -27,7 +27,7 @@ nav{position: fixed; top: 26px; left: 0;}
 nav>ul{position: fixed; bottom: 0; width: 100vw; height: 94vh; overflow-y: scroll; background-color: #000e;}
 nav>ul>li{position: relative; width: 165px; box-sizing: border-box; padding: 15px 15px; border-style: none solid solid solid; border-color: #fff;}
 nav>ul>li>a{width: 100%;}
-nav>ul>li>a, nav>ul>li>ul>li>a{font-size: 20px; color: #fff;}
+nav>ul>li>a, nav>ul>li>ul>li>a{font-size: 18px; color: #fff;}
 nav>ul>li>ul{position: absolute; top: 0; left: 100%; width: max-content;}
 nav>ul>li>ul>li{box-sizing: border-box; padding: 5px 5px; border-style: none solid solid solid; border-color: #fff;}
 nav>ul>li>ul>li:first-child{border-top: 3px solid #fff;}
