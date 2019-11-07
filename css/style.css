@@ -30,6 +30,7 @@ nav>ul>li>a{width: 100%;}
 nav>ul>li>a, nav>ul>li>ul>li>a{font-size: 20px; color: #fff;}
 nav>ul>li>ul{position: absolute; top: 0; left: 100%; width: max-content;}
 nav>ul>li>ul>li{box-sizing: border-box; padding: 5px 5px; border-style: none solid solid solid; border-color: #fff;}
+nav>ul>li>ul>li:first-child{border-top: 3px solid #fff;}
 /* 본문 */
 #contents{padding:0 5vw;}
 .pattern{box-sizing: border-box; padding: 0 5%;}
