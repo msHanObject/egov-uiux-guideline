@@ -24,8 +24,8 @@ h4{font-size: 20px; padding: 2vh 0;}
 /* 내비게이션 */
 #nav_open{position: fixed; top: 0; left: 0; width: 100vw; padding: 5px 0; background-color: #fff; font-size: 16px; border: 1px solid #000;}
 nav{position: fixed; top: 26px; left: 0;}
-nav>ul{width: max-content; width: 100vw; height: 100vh; background-color: #000;}
-nav>ul>li{position: relative; width: 50vw; box-sizing: border-box; padding: 15px 15px; border-style: none solid solid solid; border-color: #fff;}
+nav>ul{position: fixed; bottom: 0; width: 100vw; height: 94vh; overflow-y: scroll; background-color: #000e;}
+nav>ul>li{position: relative; width: 160px; box-sizing: border-box; padding: 15px 15px; border-style: none solid solid solid; border-color: #fff;}
 nav>ul>li>a{width: 100%;}
 nav>ul>li>a, nav>ul>li>ul>li>a{font-size: 20px; color: #fff;}
 nav>ul>li>ul{position: absolute; top: 0; left: 100%; width: max-content;}
