@@ -1,6 +1,6 @@
 /* css 초기화 */
 button{font-size:100%; font-family:inherit; border:0; padding:0; background-color:#ffffff00; cursor:pointer;}
-h1,h2,h3,h4,a,p,span{font-family:"Noto Sans Korean", sans-serif;}
+h1,h2,h3,h4,a,p,div,span{font-family:"Noto Sans Korean", sans-serif;}
 h1,h2,h3,h4{font-weight:500;}
 p{color: #555;}
 body,h1,h2,h3,h4,p,ol,ul,section{padding:0; margin:0;}
@@ -56,8 +56,8 @@ svg{width: 20px; height: 20px; vertical-align: sub;}
     h2{font-size: 22px;}
     h3{font-size: 20px;}
     h4{font-size: 18px;}
-    .pattern>p{font-size: 21px;}
-    .component>p{font-size: 19px;}
+    .pattern>p{font-size: 19px;}
+    .component>p{font-size: 18px;}
     .usability>li>p{font-size: 16px;}
     .usability>li>h4>span{font-size: 14px;}
     .usability>li>ul>li{width: 100%;}
