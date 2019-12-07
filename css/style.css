@@ -1,6 +1,6 @@
 /* css 초기화 */
 button{font-size:100%; font-family:inherit; border:0; padding:0; background-color:#ffffff00; cursor:pointer;}
-h1,h2,h3,h4,a,p,span{font-family:"Noto Sans Korean", sans-serif;}
+h1,h2,h3,h4,a,p,div,span{font-family:"Noto Sans Korean", sans-serif;}
 h1,h2,h3,h4{font-weight:500;}
 p{color: #555;}
 body,h1,h2,h3,h4,p,ol,ul,section{padding:0; margin:0;}
@@ -24,12 +24,13 @@ h4{font-size: 20px; padding: 2vh 0;}
 /* 내비게이션 */
 #nav_open{position: fixed; top: 0; left: 0; width: 100vw; padding: 5px 0; background-color: #fff; font-size: 16px; border: 1px solid #000;}
 nav{position: fixed; top: 26px; left: 0;}
-nav>ul{width: max-content; width: 100vw; height: 100vh; background-color: #000;}
-nav>ul>li{position: relative; width: 50vw; box-sizing: border-box; padding: 15px 15px; border-style: none solid solid solid; border-color: #fff;}
+nav>ul{position: fixed; bottom: 0; width: 100vw; height: 94vh; overflow-y: scroll; background-color: #000e;}
+nav>ul>li{position: relative; width: 165px; box-sizing: border-box; padding: 15px 15px; border-style: none solid solid solid; border-color: #fff;}
 nav>ul>li>a{width: 100%;}
-nav>ul>li>a, nav>ul>li>ul>li>a{font-size: 20px; color: #fff;}
+nav>ul>li>a, nav>ul>li>ul>li>a{font-size: 18px; color: #fff;}
 nav>ul>li>ul{position: absolute; top: 0; left: 100%; width: max-content;}
 nav>ul>li>ul>li{box-sizing: border-box; padding: 5px 5px; border-style: none solid solid solid; border-color: #fff;}
+nav>ul>li>ul>li:first-child{border-top: 3px solid #fff;}
 /* 본문 */
 #contents{padding:0 5vw;}
 .pattern{box-sizing: border-box; padding: 0 5%;}
@@ -56,8 +57,8 @@ svg{width: 20px; height: 20px; vertical-align: sub;}
     h2{font-size: 22px;}
     h3{font-size: 20px;}
     h4{font-size: 18px;}
-    .pattern>p{font-size: 21px;}
-    .component>p{font-size: 19px;}
+    .pattern>p{font-size: 19px;}
+    .component>p{font-size: 18px;}
     .usability>li>p{font-size: 16px;}
     .usability>li>h4>span{font-size: 14px;}
     .usability>li>ul>li{width: 100%;}
